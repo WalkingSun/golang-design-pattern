@@ -2,12 +2,14 @@
 Ensure a class has only one instance, and provide a global point of access to it.（确保某一个类只有一个实例，而且自行实例化并向整个系统提供这个实例。）
 
 
-- 线程不安全
+## 线程不安全
+
 [懒汉模式](https://github.com/WalkingSun/DesignPattern/tree/master/singleton/singleton02.go)
 
 懒汉模式存在线程安全问题在低并发的情况下尚不会出现问题，若系统压力增大，并发量增加时则可能在内存中出现多个实例，破坏了最初的预期。
 
-- 线程安全
+## 线程安全
+
 [饿汉模式](https://github.com/WalkingSun/DesignPattern/tree/master/singleton/singleton.go)
 
 首先go中没有构造函数的概念，可以利用包的特性，在包被import的时候，会自动执行init的特性，进行实例化操作。当程序中用不到该对象时，浪费了一部分空间
