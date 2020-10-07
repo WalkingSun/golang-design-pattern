@@ -1,4 +1,4 @@
-package main
+package factory
 
 import "fmt"
 
@@ -43,12 +43,4 @@ func (factory HumanFactory) CreateHuman(human string) Human {
 
 	}
 	return nil
-}
-
-func main() {
-	factory := new(HumanFactory)
-	h1 := factory.CreateHuman("black")
-	h1.GetColor()
-	h2 := factory.CreateHuman("yellow")
-	h2.GetColor()
 }
