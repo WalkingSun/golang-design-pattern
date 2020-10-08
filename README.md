@@ -12,9 +12,16 @@
 
 但在软件开发中对于职责的分离是比较抽象，没有固定的标准，要看实际项目中的使用和对于代码结构上分离的感知。比如是书籍类，可以分为属性、动作两个类，动作又可以切分curd类，那岂不是类文件越多的情况。
 
-## 单列模式
-[单列模式-懒汉模式](https://github.com/WalkingSun/DesignPattern/tree/master/singleton/singleton02.go)
+## 单例模式
+[单例模式-懒汉模式](https://github.com/WalkingSun/DesignPattern/tree/master/singleton/singleton02.go)
 
-[单列模式-饿汉模式](https://github.com/WalkingSun/DesignPattern/tree/master/singleton/singleton.go)
+[单例模式-饿汉模式](https://github.com/WalkingSun/DesignPattern/tree/master/singleton/singleton.go)
 
-[单列模式-锁机制](https://github.com/WalkingSun/DesignPattern/tree/master/singleton/singleton03.go)
+[单例模式-锁机制](https://github.com/WalkingSun/DesignPattern/tree/master/singleton/singleton03.go)
+
+## 工厂模式
+[工厂模式](https://github.com/WalkingSun/DesignPattern/tree/master/factory)
+
+[简单工厂模式](https://github.com/WalkingSun/DesignPattern/tree/master/factory/simple_factory.go)
+
+[多工厂方法模式](https://github.com/WalkingSun/DesignPattern/tree/master/factory/more_factory.go)
