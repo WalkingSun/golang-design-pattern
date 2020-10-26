@@ -18,3 +18,10 @@ func TestFactoryMethod(t *testing.T) {
 	whitewHuman.GetColor()
 	blackwHuman.GetColor()
 }
+
+func TestAutoloadFactoryMethod(t *testing.T) {
+	var yellowHuman Human = Create("yellow")
+	var blackwHuman Human = Create("black")
+	yellowHuman.GetColor()
+	blackwHuman.GetColor()
+}

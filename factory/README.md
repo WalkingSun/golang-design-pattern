@@ -35,7 +35,9 @@ Define an interface for creating an object,but let subclasses decide whichclass 
 ![多个工厂类的类图](https://raw.githubusercontent.com/WalkingSun/WindBlog/gh-pages/images/ws2/image-20201007111319693.png)
 
 参考代码：
-[工厂方法模式](https://github.com/WalkingSun/DesignPattern/tree/master/factory/more_factory.go)
+[多工厂方法模式](https://github.com/WalkingSun/DesignPattern/tree/master/factory/more_factory.go)
+
+自动加载工厂模式 ```go test -v ./factory  -test.run  TestAutoloadFactoryMethod```
 
 多工厂方法模式优缺：
 
