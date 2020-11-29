@@ -55,7 +55,7 @@ Software entities like classes,modules and functions should be open forextension
 
 增加一个子类OffNovelBook，覆写getPrice方法，高层次的模块（也就是static静态模块区）通过OffNovelBook类产生新的对象，完成业务变化对系统的最小化开发
 
-开闭原则重要性
+## 开闭原则重要性
 - 开闭原则对测试影响
 已经投产的代码，因为业务有变化提出，如果修改原有健壮的代码，需要将原有测试流程重新进行功能测试、单元测试、集成测试及验收，通过扩展，只需测通附加的扩展代码即可；
 - 开闭原则提高服用性
@@ -64,7 +64,7 @@ Software entities like classes,modules and functions should be open forextension
 - 开闭原则可以提高可维护性
 一款软件投产后，维护人员的工作不仅仅是对数据进行维护，还可能要对程序进行扩展，维护人员最乐意做的事情就是扩展一个类，而不是修改一个类；
 
-开闭原则运用
+## 开闭原则运用
 - 抽象约束
 通过接口或抽象类可以约束一组可能变化的行为，并且能够实现对扩展开放，其包含三层含义：
 
